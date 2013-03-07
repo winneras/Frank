@@ -1,0 +1,36 @@
+/* 
+Theme Name:     Winjiejie Concise Theme from frank
+Theme URI:      http://winjiejie.com/project/concise-blog/
+Description:    Child theme for the Frank theme  
+Author:         winneras
+Author URI:     http://winjiejie.com/
+Template:       frank  
+Version:        0.1.0 
+License:	Creative Commons Share Alike 3.0
+License URI:	http://creativecommons.org/licenses/by-sa/3.0/
+*/
+
+@import "../../../frank/stylesheets/scss/variables";
+
+@import "variables";
+
+@import "../../../frank/stylesheets/scss/reset";
+@import "../../../frank/stylesheets/scss/grid";
+@import "../../../frank/stylesheets/scss/global";
+@import "../../../frank/stylesheets/scss/forms";
+@import "../../../frank/stylesheets/scss/widgets";
+@import "../../../frank/stylesheets/scss/transitions";
+@import "../../../frank/stylesheets/scss/header";
+@import "../../../frank/stylesheets/scss/index";
+@import "../../../frank/stylesheets/scss/single";
+@import "../../../frank/stylesheets/scss/page";
+@import "../../../frank/stylesheets/scss/archive";
+@import "../../../frank/stylesheets/scss/fourohfour";
+@import "../../../frank/stylesheets/scss/sidebar";
+@import "../../../frank/stylesheets/scss/comments";
+@import "../../../frank/stylesheets/scss/footer";
+
+
+
+@import "../../../frank/stylesheets/scss/mobile";
+@import "../../../frank/stylesheets/scss/print";
