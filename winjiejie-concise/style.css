@@ -1010,6 +1010,17 @@ button.small, .button.small {
     margin-left: 0% !important; }
   #content.single .post img.flush-left {
     max-width: 100% !important; } }
+/*
+* style for post image in home page
+*/
+.post.leftaside .post-info, .type-page.leftaside .post-info {
+  text-align: right; }
+
+/*MOBILE*/
+@media only screen and (max-width: 767px) {
+  /*Metadata content*/
+  .post-info .category-thumbnail, .post-info .attachment-thumbnail {
+    display: none; } }
 @media screen, projection {
   label {
     font: 700 13px Sans-Serif; }
@@ -1449,6 +1460,27 @@ button, .button, input[type=submit] {
   margin-top: 30px; }
 #page-footer a {
   color: #fffefe; }
+
+#page-bottom {
+  background: #5d504f;
+  color: #f0eceb;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5); }
+
+#page-footer {
+  padding-top: 30px;
+  padding-bottom: 5px;
+  margin-top: 30px; }
+#page-footer a {
+  color: #fffefe; }
+
+#legal {
+  padding: 7.5px;
+  float: right;
+  /*background: $color-accent;*/
+  font-family: Sans-Serif; }
+#legal a {
+  color: #f0eceb;
+  font-style: italic; }
 
 /* --------------------------------------------------
 	:: Grid
