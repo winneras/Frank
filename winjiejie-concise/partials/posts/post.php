@@ -5,8 +5,7 @@
 		</h1>
 	</header>
 	<div class="row">
-		<section class="post-content">
-			<?php the_post_thumbnail( 'medium-thumbnail' ); ?>
+		<section class="post-content">			
 			<?php the_content('Read On&hellip;'); ?>
 		</section>
 		<footer class="post-info">
