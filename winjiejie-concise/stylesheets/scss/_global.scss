@@ -1,0 +1,23 @@
+/*
+* style for post image in home page
+*/
+
+.post, .type-page {
+
+	&.leftaside {
+
+		.post-info {
+			text-align: right;
+		}
+	}
+}
+/*MOBILE*/
+@media only screen and  (max-width: 767px) {
+
+	/*Metadata content*/
+        .post-info{
+                .category-thumbnail, .attachment-thumbnail{
+                        display: none;
+                }
+        }
+}
